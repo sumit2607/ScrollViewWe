@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+ <LinearLayout
+   android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+  <EditText
+      style="@style/customeEdittext"
+      android:text="@string/enter_your_name_here"
+      android:hint="@string/enter_the_name"
+      android:background="@drawable/edittext_bg"
+      android:padding="@dimen/dp_20"/>
+
+
+  <EditText
+      style="@style/customeEdittext"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="54dp"
+      android:layout_marginEnd="-5dp"
+      android:hint="@string/enter_the_id"
+      android:background="@drawable/edittext_bg"
+      android:padding="@dimen/dp_20"/>
+
+  <EditText
+      android:id="@+id/editTextTextPersonName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="93dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="@string/enter_dob"
+      android:background="@drawable/edittext_bg"
+      android:padding="@dimen/dp_20"/>
+  <EditText
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="93dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Blood Group"
+      android:background="@drawable/edittext_bg"
+      android:padding="@dimen/dp_20"/>
+  <EditText
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="93dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Phone No"
+      android:background="@drawable/edittext_bg"
+      android:padding="@dimen/dp_20"/>
+  <EditText
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="93dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="enter State"
+      android:background="@drawable/edittext_bg"
+      android:padding="@dimen/dp_20"/>
+  <EditText
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="93dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Enter District"
+      android:background="@drawable/edittext_bg"
+      android:padding="@dimen/dp_20"/>
+  <EditText
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="93dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Enter Address"
+      android:background="@drawable/edittext_bg"
+      android:padding="@dimen/dp_20"/>
+
+ </LinearLayout>
+</ScrollView>

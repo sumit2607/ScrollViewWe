@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ScrollViewWe</string>
+    <string name="enter_your_name_here">Enter your name here</string>
+    <string name="hii">hii</string>
+    <string name="enter_the_id">enter the id</string>
+    <string name="enter_dob">Enter DOB</string>
+    <string name="enter_the_name">Enter the name</string>
+</resources>
